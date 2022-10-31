@@ -13,10 +13,10 @@ sayHello() //=> Hello!
 -----------------------------------------------------------------*/
 // Your solution for 00-sayHello (example) here:
 
-function sayHello() {
-  return 'Hello!'
+function addOne(num) {
+  return num + 1;
 }
-
+console.log(addOne(1));
 
 /*-----------------------------------------------------------------
 Challenge: 01-addOne
