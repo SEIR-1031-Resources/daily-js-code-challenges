@@ -34,6 +34,11 @@ addOne(-5) //=> -4
 -----------------------------------------------------------------*/
 // Your solution for 01-addOne here:
 
+function addone(num){
+  return num + 1;
+};
+
+console.log(addone(95));
 
 
 
