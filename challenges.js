@@ -14,7 +14,7 @@ sayHello() //=> Hello!
 // Your solution for 00-sayHello (example) here:
 
 function sayHello() {
-  return 'Hello!'
+    return 'Hello!'
 }
 
 
@@ -28,16 +28,15 @@ Prompt:
 Write a function called addOne that takes a single number as an argument and returns that number plus 1.
 
 Examples:
-
 addOne(1) //=> 2
 addOne(-5) //=> -4
 -----------------------------------------------------------------*/
 // Your solution for 01-addOne here:
 
-
-
-
-
+function addOne(num) {
+    return num + 1
+}
+console.log(addOne(5));
 /*-----------------------------------------------------------------
 Challenge: 02-addTwoNumbers
 
@@ -807,5 +806,3 @@ totalTaskTime( [2, 2, 3, 3, 4, 4], 2 ) //=> 9
 totalTaskTime( [5, 2, 6, 8, 7, 2], 3 ) // => 12
 -----------------------------------------------------------------*/
 // Your solution for 30- here:
-
-
